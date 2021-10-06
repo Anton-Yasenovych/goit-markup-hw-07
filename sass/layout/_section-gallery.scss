@@ -38,7 +38,7 @@
 }
 .group-cards > .card-portf {
   display: block;
-  flex-basis: var(--flex-calc-cards-gallery);
+  flex-basis: calc( 100% / 3 - var(--margin-top-30));
   margin-top: var(--margin-top-30);
   margin-left: var(--margin-left-30);
   background: var(--card-set-background-color);
